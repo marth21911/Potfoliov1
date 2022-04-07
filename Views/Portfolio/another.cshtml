@@ -8,6 +8,24 @@
 </head>
 <body>
     <h1>Here is yet another page for profiling!</h1>
+    @{ 
+        var petNames = new List<string>
+            {
+                "Mazikeen",
+                "Leia",
+                "Wall-E",
+                "Addy",
+                "Ziggy",
+                "Indy",
+                "Atlas",
+                "Brie",
+                "Marley"
+            };
+            foreach( var name in petNames)
+            {
+                <p> @name</p>
+            }
+    }
     
 </body>
 </html>
